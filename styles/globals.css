@@ -2,7 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 @layer components {
+    * {
+        font-family: "Roboto", sans-serif;
+    }
     .navBtn {
         @apply hidden h-6 md:inline-flex cursor-pointer hover:scale-125 transition-all duration-150 ease-out;
     }
